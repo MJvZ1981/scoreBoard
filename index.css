@@ -14,6 +14,8 @@ body {
 }
 
 .container {
+    border-radius: 10px;
+    border: 20px solid black;
     display: flex;
     background-color: #013666;
     justify-content: space-around;
@@ -21,7 +23,7 @@ body {
     align-items: center;
     gap: 20px;
     height: 80%;
-    width: 60%;
+    width: 50%;
 }
 
 .home, .guests {
@@ -30,6 +32,7 @@ body {
     justify-content: center;
     width: 100%;
     color: white;
+    font-family: Monaco;
     font-size: 60px;
     margin-top: 10%;
 }
@@ -98,16 +101,17 @@ body {
     flex-direction: column;
     max-height: 10%;
     
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
 }
 
 .shotclock-text {
     margin: 0;
     padding: 0;
-    color: white;
+    color: red;
     font-style: bold;
-    font-size: 6 px;
+    font-size: 20px;
+    font-family: Monaco;
 }
 
 button {
