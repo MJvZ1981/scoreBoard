@@ -1,6 +1,5 @@
-html, body {
+body {
     margin: 0;
-    padding: 40px;
     background-color: darkgray;
     height: 100%;
     display: flex;
@@ -16,6 +15,7 @@ html, body {
 .container {
     border-radius: 10px;
     border: 20px solid black;
+    padding: 5%;
     display: flex;
     background-color: #013666;
     justify-content: space-around;
