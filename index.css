@@ -88,7 +88,6 @@ body {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     background-color: #013666;
     font-family: Cursed Timer ULiL;
 }
@@ -100,27 +99,18 @@ body {
     justify-content: center;
     flex-direction: column;
     max-height: 10%;
-    
-    margin-bottom: 10px;
     padding: 0;
-}
-
-.shotclock-text {
-    margin: 0;
-    padding: 0;
-    color: red;
-    font-style: bold;
-    font-size: 20px;
-    font-family: Monaco;
+    border: 3px solid darkblue;
+    border-radius: 5px;
 }
 
 button {
-    border-color: #9AABD8;
+    border-color: darkblue;
     border-radius: 5px;
     width: 30%;
     height: 32px;
-    color: #9AABD8;
-    background-color: #013666;
+    color: darkblue;
+    background-color: black;
     font-family: Cursed Timer ULiL;
 }
 
