@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #013666;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@font-face {
+  font-family: Cursed Timer ULiL;
+  src: url('fonts/CursedTimerUlil-Aznm.ttf');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    height: 90%;
+    width: 100%;
+}
+
+.home, .guests {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    margin-top: 10%;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+}
+
+#reset-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer-home {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    min-height: 30px;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    width: 25%;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    align-self: center;
+    font-family: Cursed Timer ULiL;
+}
+
+#score-home, #score-guests {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    border: 3px solid darkblue;
+    font-family: Cursed Timer ULiL;
+    font-size: 100px;
+    margin: 20px 0px; 
+}
+
+#points-home, #points-guests {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    background-color: #013666;
+    font-family: Cursed Timer ULiL;
+}
+
+.shotclock {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: 10%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.shotclock-text {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-style: bold;
+    font-size: 6 px;
+}
+
+button {
+    border-color: #9AABD8;
+    border-radius: 5px;
+    width: 30%;
+    height: 32px;
+    color: #9AABD8;
+    background-color: #013666;
+    font-family: Cursed Timer ULiL;
+}
+
+#reset-guests {
+    align-self: flex-end;
+    background-color: black;
+    color: red;
+}
+
+
+@media (max-width: 600px) {
+  .home, .guests {
+    font-size: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+  .home, .guests {
+    font-size: 32px;
+    }
+}
