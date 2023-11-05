@@ -22,8 +22,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    height: 80%;
-    width: 50%;
+    height: 60%;
+    width: 40%;
 }
 
 .home, .guests {
