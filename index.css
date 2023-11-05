@@ -14,8 +14,8 @@ body {
 }
 
 @font-face {
-  font-family: Quartzo font;
-  src: url('fontspace.com/quartzo-font-f22857.ttf');
+  font-family: Quartzo Font;
+  src: url('fonts/quartzo-font-f22857.ttf');
 }
 
 .container {
@@ -38,7 +38,7 @@ body {
     justify-content: center;
     width: 100%;
     color: white;
-    font-family: Quartzo font;
+    font-family: Quartzo Font;
     font-size: 50px;
 }
 
