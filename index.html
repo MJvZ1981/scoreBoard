@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="shotclock">
+            <h6 class="shotclock-text">Shotclock</h6>
+            <div onclick='shotClock()' id='timer-home'>24</div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <div class="home">HOME</div>
+                <div id='score-home'>0</div>
+                <div id='points-home'>
+                    <button onclick="handleScore('home', 1)" id='plusOne'>+1</button>
+                    <button onclick="handleScore('home', 2)" id='plusTwo'>+2</button>
+                    <button onclick="handleScore('home', 3)" id='plusThree'>+3</button>
+                </div>
+                <button onclick='homeMinusOne()' id='minusOne'>-1</button>
+            </div>
+            <div class="right">
+                <div class='guests'>GUEST</div>
+                <div id='score-guests'>0</div>
+                <div id='points-guests'>
+                    <button onclick="handleScore('guest', 1)" id='plusOne'>+1</button>
+                    <button onclick="handleScore('guest', 2)" id='plusTwo'>+2</button>
+                    <button onclick="handleScore('guest', 3)" id='plusThree'>+3</button>
+                </div>
+                <div id="reset-row">
+                    <button onclick='guestsMinusOne()' id='minusOne'>-1</button>
+                    <button onclick='handleReset()' id='reset-guests'>new</button>   
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
