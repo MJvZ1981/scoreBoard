@@ -64,6 +64,7 @@ body {
     color: red;
     align-self: center;
     font-family: Cursed Timer ULiL;
+    padding: 5px;
 }
 
 #score-home, #score-guests {
