@@ -1,8 +1,8 @@
-body {
+html, body {
     margin: 0;
     padding: 40px;
-    background-color: white;
-    height: 100vh;
+    background-color: darkgray;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,11 +92,11 @@ body {
 }
 
 button {
-    border: 2px solid yellow;
+    border: 2px solid green;
     border-radius: 5px;
     width: 30%;
     height: 32px;
-    color: yellow;
+    color: green;
     background-color: black;
     font-family: Cursed Timer ULiL;
 }
@@ -105,6 +105,7 @@ button {
     align-self: flex-end;
     background-color: black;
     color: red;
+    border-color: red;
 }
 
 
