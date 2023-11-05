@@ -15,7 +15,7 @@ body {
 
 @font-face {
   font-family: Quartzo font;
-  src: url('fonts/quartzo-font');
+  src: url('fonts/quartzo-font.ttf');
 }
 
 .container {
