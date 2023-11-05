@@ -1,11 +1,10 @@
 body {
-    margin: 0;
     background-color: darkgray;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
+    margin: 10%;
 }
 
 @font-face {
