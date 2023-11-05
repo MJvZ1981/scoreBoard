@@ -78,7 +78,9 @@ body {
     border: 3px solid darkblue;
     font-family: Cursed Timer ULiL;
     font-size: 80px;
-    margin: 20px 0px; 
+    margin: 20px 0px;
+    padding: 0;
+    margin: 0;
 }
 
 #points-home, #points-guests {
