@@ -48,7 +48,7 @@ function homeMinusOne() {
 
 function guestsMinusOne() {
     shotClock();
-    shotClockHome();
+    guestsScore -= 1;
     guestsEl.textContent = guestsScore;
     difineBorderColor();
 }
