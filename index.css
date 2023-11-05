@@ -34,7 +34,7 @@ body {
     width: 100%;
     color: white;
     font-family: Monaco;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .left, .right {
@@ -43,7 +43,7 @@ body {
     align-content: center;
     justify-content: space-around;
     width: 40%;
-    height: 90%;
+    height: 100%;
 }
 
 #reset-row {
@@ -53,17 +53,15 @@ body {
 
 #timer-home {
     display: flex;
-    justify-items: center;
     align-items: center;
+    justify-content: center;
     margin-bottom: 5px;
     min-height: 30px;
     border-radius: 5px;
     border: 2px solid darkblue;
-    width: 25%;
-    justify-content: center;
+    width: 18%;
     background-color: black;
     color: red;
-    align-self: center;
     font-family: Cursed Timer ULiL;
     padding: 5px;
 }
@@ -79,7 +77,7 @@ body {
     border-radius: 10px;
     border: 3px solid darkblue;
     font-family: Cursed Timer ULiL;
-    font-size: 100px;
+    font-size: 80px;
     margin: 20px 0px; 
 }
 
@@ -94,6 +92,9 @@ body {
 }
 
 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid green;
     border-radius: 5px;
     width: 30%;
