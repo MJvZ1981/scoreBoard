@@ -13,6 +13,11 @@ body {
   src: url('fonts/CursedTimerUlil-Aznm.ttf');
 }
 
+@font-face {
+  font-family: Quartzo font;
+  src: url('fonts/quartzo-font');
+}
+
 .container {
     border-radius: 10px;
     border: 20px solid black;
@@ -33,7 +38,7 @@ body {
     justify-content: center;
     width: 100%;
     color: white;
-    font-family: Monaco;
+    font-family: Quartzo font;
     font-size: 50px;
 }
 
