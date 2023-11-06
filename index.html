@@ -16,7 +16,7 @@
                     <button onclick="handleScore('home', 2)" id='plusTwo'>+2</button>
                     <button onclick="handleScore('home', 3)" id='plusThree'>+3</button>
                 </div>
-                <button onclick='homeMinusOne()' id='minusOne'>-1</button>
+                <button onclick="handleScore('home', -1)" id='minusOne'>-1</button>
             </div>
             <div class="right">
                 <div class='guests'>GUEST</div>
@@ -27,7 +27,7 @@
                     <button onclick="handleScore('guest', 3)" id='plusThree'>+3</button>
                 </div>
                 <div id="reset-row">
-                    <button onclick='guestsMinusOne()' id='minusOne'>-1</button>
+                    <button onclick="handleScore('guest', -1)" id='minusOne'>-1</button>
                     <button onclick='handleReset()' id='reset-guests'>new</button>   
                 </div>
             </div>
